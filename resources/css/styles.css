@@ -1,0 +1,40 @@
+/* *************************************
+*			basic setup				   *
+****************************************/
+
+body {
+	font-family: 'Lato', 'Arial', sans-serif;
+}
+
+
+/*
+	background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url('../img/back.jpg');
+	background-size: cover;
+	background-position: center;
+*/
+.container {
+	background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url('../img/back.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+}
+
+.player-1-panel,
+.player-2-panel {
+	background-color: #fff;
+	color: #555;
+	flex-basis: 500px;
+	height: 600px;
+}
+
+#player-1-panel {
+	
+}
+
+#player-2-panel {
+
+}
